@@ -2,16 +2,14 @@
 
 <h3><?= $data['title']; ?></h3>
 
-<!-- Maak een nieuwe view aan voor deze link -->
-<p><a href="<?= URLROOT; ?>/Countries/create">Nieuw land toevoegen</a></p>
-
 <table class="table table-hover">
     <thead>
         <tr>
             <th>Naam</th>
-            <th>Hoofdstad</th>
-            <th>Continent</th>
-            <th>Aantal Inwoners</th>
+            <th>Netto Waarde (Miljoen</th>
+            <th>Land</th>
+            <th>Mobiel</th>
+            <th>Leeftijd</th>
         </tr>
     </thead>
     <tbody>

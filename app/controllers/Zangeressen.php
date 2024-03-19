@@ -23,13 +23,12 @@ class Zangeressen extends BaseController
                             <td>{$zangeres->NettoWaarde}</td>
                             <td>{$zangeres->Land}</td>
                             <td>{$zangeres->Mobiel}</td>
-                            <td>{$zangeres->Leeftijd}</td>
-                            <td>" . number_format($country->Population, 0, ",", ".") . "</td>            
+                            <td>{$zangeres->Leeftijd}</td>            
                         </tr>";
         }
 
         $data = [
-            'title' => 'Landen van de Wereld',
+            'title' => 'De Top 5 rijkste zangeressen ter wereld',
             'dataRows' => $dataRows
         ];
 
